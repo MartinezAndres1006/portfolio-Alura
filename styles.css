@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    ::-webkit-scrollbar{
+      width: 4px;
+
+    }
+   ::-webkit-scrollbar-track{
+    background:#011627;
+   }
+   ::-webkit-scrollbar-thumb{
+
+
+    background: #ff0000;
+   }
+}
+
+body {
+  background-color: #011627;
+  color: #ffff;
+}
+
+
+/* //////////Cabecera////////// */
+
+.header{
+  padding: 2% 0% 0% 15% ;
+}
+.header__navega{
+  display: flex;
+  gap:80px;
+}
+.item__navega{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+
+/* //////////Sobre mi////////// */
+.container{
+height: 100vh;
+
+
+}
+
+.contenedor__perfil__inicio{
+display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6% 5% ;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: left;
+}
+
+.resaltado {
+  color: #ff0000;
+  font-family: "Krona One", sans-serif;
+}
+
+.descripcionAndres {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #f6f6f6;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0px;
+  gap: 32px;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 381px;
+  height: 68px;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f6f6f6;
+  border: 2px solid #ff0000;
+  font-family: "Montserrat", sans-serif;
+  gap: 10px;
+}
+
+.boton:hover{
+background-color: #ff000033;
+}
+
+
+
+.AboutMe {
+  width: 40%;
+  height: 80%;
+}
+.contenedorImagen {
+  width: 488px;
+  height: 550px;
+  border-radius: 16px;
+}
+
+.subtitulo__botones {
+  font-family: "Krona One", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+
+
+
+/* //////////footer////////// */
+
+
+
+
+
+.piePagina{
+height: 80px;
+background-color: #ff0000;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 24px;
+
+}
+.piePagina p{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.titulo_About_me{
+  font-family: 'Krona One',sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 56px;
+  text-align: left;
+}
+.parrafo_About_me{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  
+}
